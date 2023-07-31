@@ -22,3 +22,7 @@ server.set('views', __dirname + '/views')
 server.use(express.static(__dirname + '/public'))
 
 // Routes
+
+server.get('/', (req, res) => {
+  res.render('home')
+})
