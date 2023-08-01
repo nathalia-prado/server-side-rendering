@@ -35,9 +35,5 @@ server.get('/', (req, res) => {
 server.get('/artworks/:id', (req, res) => {
   const id = req.params.id 
   const artwork = art.find(element => element.id == id)
-  const viewData = {
-    title: 'Gallery',
-    artwork: artwork.artwork
-  }
-  res.render('artworks', viewData)
+  res.render('artworks', artwork)
 })

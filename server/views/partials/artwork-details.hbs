@@ -1,0 +1,15 @@
+<main>
+    {{>artwork-license}}
+    {{#each comments}}
+        <div class="twelve columns center">
+            <div class="dialogbox">
+                <div class="body">
+                    <span class="tip tip-up"></span>
+                    <div class="message">
+                        {{this}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+</main>

@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(211, 237, 243);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 20px;
+    width: calc(100% - 40px);
+}
+
+footer {
+    max-width: 900px;
+    margin: 80px auto 0;
+    text-align: center;
+}
+
+.title {
+    background: rgba(0, 225, 255, 0.603);
+    min-height: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 24px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #ccc;
+}
+  
+.tip-up {
+    top: -25px; /* Same as body margin top + border */
+    left: 10px;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+.dialogbox .body {
+    position: relative;
+    min-width: 300px;
+    height: auto;
+    margin: 20px 10px;
+    padding: 5px;
+    background-color: #DADADA;
+    border-radius: 3px;
+    border: 5px solid #ccc;
+}
+
+.body .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #797979;
+}
+
+.title-link {
+    color: white;
+    text-decoration: none
+}
+
+.item {
+    margin-bottom: 36px;
+}
