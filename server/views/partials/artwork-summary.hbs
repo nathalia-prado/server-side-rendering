@@ -1,0 +1,7 @@
+<main>
+    {{#each art}}
+        <li>{{this.title}}</li>
+        <p>By {{this.artist.name}}</p>
+        <a href={{this.license.url}}>{{this.license.name}}</a>
+    {{/each}}
+</main>
