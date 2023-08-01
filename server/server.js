@@ -31,3 +31,4 @@ server.get('/', (req, res) => {
   }
   res.render('home', viewData)
 })
+
