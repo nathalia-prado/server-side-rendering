@@ -1,0 +1,13 @@
+<main>
+    {{#each art}}
+        <section class="item">
+            <div class="row">
+                <div class="twelve columns title center">
+                    <a class="title-link" href="/artworks/{{this.id}}">{{this.title}}</a>
+                </div>
+            </div>
+            {{>artwork-image}}
+            {{>artwork-license}}
+        </section>
+    {{/each}}
+</main>

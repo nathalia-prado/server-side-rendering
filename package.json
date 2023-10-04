@@ -14,7 +14,9 @@
     "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
   },
   "eslintConfig": {
-    "extends": ["@devacademy"]
+    "extends": [
+      "@devacademy"
+    ]
   },
   "dependencies": {
     "express": "^4.17.2",
